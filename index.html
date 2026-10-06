@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | 星のなまえ</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --text: #1d1d1f; --dim: #555; --line: #ddd; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000; --text: #ececec; --dim: #aaa; --line: #333; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p, li { font-size: 0.95rem; }
+  .dim { color: var(--dim); font-size: 0.85rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="dim">アプリ「星のなまえ」（iPhone 用）／制定日：2026年10月7日</p>
+
+  <p>「星のなまえ」（以下「本アプリ」）は、スマートフォンを空にかざすと、見えている星の名前と解説を表示するアプリです。本アプリは無料で、広告、アプリ内課金、アカウント登録はありません。このページでは、本アプリが利用者の情報をどう扱うかを説明します。</p>
+
+  <h2>1. 位置情報</h2>
+  <ul>
+    <li>現在地（GPS などで得た緯度・経度）は、空のどこにどの星が見えるかを、端末の中で計算するために使います。正確な現在地を、端末の外へ送ることはありません。</li>
+    <li>雲で見えない星を表示から外すため、雲量の予報を天気予報サービス「Open-Meteo」（<a href="https://open-meteo.com/">open-meteo.com</a>）から取得します。このとき、緯度・経度を小数第1位（約10km単位）に丸めた「おおよその位置」だけを送ります。住所や自宅の位置が分かる精度では送りません。</li>
+    <li>Open-Meteo の利用規約によると、受け取った座標を含むサーバーの記録は、最大90日間保存されたあと削除されます。詳しくは <a href="https://open-meteo.com/en/terms">Open-Meteo の利用規約とプライバシー</a> をご覧ください。</li>
+    <li>位置情報の利用を許可しない場合は、都道府県を選んで使えます。その場合は、選んだ都道府県の代表地点の位置を、上と同じく約10km単位に丸めて送ります。</li>
+  </ul>
+
+  <h2>2. カメラ</h2>
+  <p>カメラは、方角を合わせるときと、利用者がカメラを ON にしたときだけ使います。映像は画面に表示するだけで、保存も送信もしません。</p>
+
+  <h2>3. 端末に保存する情報</h2>
+  <p>次の設定を、次回も使えるように端末の中だけに保存します。端末の外へ送ることはありません。アプリを削除すると消えます。</p>
+  <table>
+    <tr><th>保存する情報</th><th>目的</th></tr>
+    <tr><td>選んだ都道府県</td><td>次回、選び直さずに使うため</td></tr>
+    <tr><td>赤モード（画面を赤くする表示）のオン・オフ、空の明るさの設定</td><td>表示の設定を保つため</td></tr>
+    <tr><td>方角合わせのずれの値</td><td>合わせた方角を保つため</td></tr>
+    <tr><td>カメラ使用前の画面の明るさ</td><td>カメラや方角合わせの間に最大にした画面の明るさを、元に戻すため</td></tr>
+  </table>
+
+  <h2>4. 画像と外部のページ</h2>
+  <ul>
+    <li>天体の解説の画像は、NASA、ESA/Hubble、ESA/Webb、ESO のサーバーから直接読み込みます。画像を読み込むとき、通常のインターネット通信と同じく、利用者の IP アドレスなどがそれらのサーバーに届きます。本アプリの提供者が、その情報を受け取ることはありません。</li>
+    <li>解説の出典（Wikipedia など）や画像の提供元のページは、利用者が開くと確認したときだけ、Safari などのブラウザで開きます。</li>
+  </ul>
+
+  <h2>5. 本アプリがしないこと</h2>
+  <ul>
+    <li>広告の表示、利用状況の分析ツールの組み込み、利用者の追跡（トラッキング）はしません。</li>
+    <li>氏名、メールアドレス、連絡先、写真などの個人情報を集めません。</li>
+    <li>上に書いた場合のほか、利用者の情報を第三者に提供しません。</li>
+  </ul>
+
+  <h2>6. このポリシーの変更</h2>
+  <p>本アプリの機能の変更などにあわせて、このポリシーを変更することがあります。変更したときは、このページで変更日とあわせてお知らせします。</p>
+
+  <h2>7. お問い合わせ</h2>
+  <p>本アプリやこのポリシーについてのご質問は、<a href="https://github.com/sogajijiji/star-finder-privacy/issues">GitHub の Issues（質問・要望の受付）</a>からお送りください（GitHub のアカウントが必要です）。</p>
+</main>
+</body>
+</html>
